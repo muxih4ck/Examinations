@@ -1,0 +1,8 @@
+<html>
+    <h1>Hello, Anonymous!</h1>
+    <form action="{{ url_for('anonymous') }}" method="post">
+        <p>name: <input type="text" name="name" /></p>
+        <input type="submit" value="Submit" />
+    </form>
+    <p>input the name and click 'submit' to continue</p>
+</html>
