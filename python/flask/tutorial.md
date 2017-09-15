@@ -271,6 +271,8 @@ The browser tells the server to just get the information stored on that page and
 
 The browser tells the server that it wants to post some new information to that URL.use `request.form.get('<name>')`,**name** is the name of the variable that you want.
 
+Check [this](http://www.w3school.com.cn/tags/tag_form.asp) for \<form\> in html and use it to post **name** in your app.
+
 ### DELETE
 
 Remove the information at the given location.
