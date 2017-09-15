@@ -244,6 +244,37 @@ Here is an example template:
 {% endif %}
 ```
 
+## HTTP Methods
+
+HTTP (the protocol web applications are speaking) knows different methods for accessing URLs. By default, a route only answers to GET requests, but that can be changed by providing the methods argument to the route() decorator. Here are some examples:
+
+```python
+from flask import request
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        do_the_login()
+    else:
+        show_the_login_form()
+```
+
+Here is a quick introduction to HTTP methods and why they matter:
+
+The HTTP method (also often called “the verb”) tells the server what the client wants to do with the requested page. The following methods are very common:
+
+### GET
+
+The browser tells the server to just get the information stored on that page and send it. This is probably the most common method.
+
+### POST
+
+The browser tells the server that it wants to post some new information to that URL.use `request.form.get('<name>')`,**name** is the name of the variable that you want.
+
+### DELETE
+
+Remove the information at the given location.
+
 ## Redirects and Errors¶
 
 To redirect a user to another endpoint, use the `redirect()` function; to abort a request early with an error code, use the `abort()` function:
