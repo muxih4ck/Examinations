@@ -13,6 +13,32 @@ example code of applications written with Flask:
 * [minitwit](https://github.com/pallets/flask/tree/master/examples/minitwit/) — a twitter clone
 * [this website](https://github.com/pallets/flask-website) — static pages + mailinglist archives
 
+## Install Flask
+
+### Install easy-install
+
+Easy Install is a python module bundled with
+that lets you automatically download, build, install, and manage Python
+packages.
+
+```shell
+$ sudo apt-get install python-setuptools python-dev build-essential
+```
+
+⚠️ Attention: do not include the **$** when copying the code
+
+### Install pip
+
+```shell
+$ sudo easy_install pip
+```
+
+### Install Flask
+
+```shell
+$ pip install flask
+```
+
 ## A Minimal Application
 
 A minimal Flask application looks something like this:
