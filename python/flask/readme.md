@@ -10,4 +10,4 @@
 1. 使用浏览器访问 `http://127.0.0.1:5000/anonymous/` 得到用户页面(templates/anonymous.html)的内容，页面中显示"Hello, Anonymous!", 且下方有一个表单要求填入一个用户名"rose"，点击“提交”之后，跳转至`http://127.0.0.1:5000/user/rose/`, 如果填写的用户名为"jack"，则跳转至`http://127.0.0.1:5000/user/jack/`
 1. 定义一个处理404错误的路由(router)，当访问一个不存在的页面时，页面显示(templates/page\_not\_found.html)的内容。
 
-完成之后打包成 `你的姓名.tar.gz` 以附件形式发送到`i@muxistudio.com` 
+完成之后将整个项目目录压缩成压缩包，压缩包的名称形式为 `你的姓名.tar.gz` 以附件形式发送到`i@muxistudio.com` 
