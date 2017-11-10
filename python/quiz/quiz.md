@@ -1,6 +1,6 @@
-# 测验
+# 木犀后台组2017.11测验
 
-实现一个超级简单用户系统 + 简单的发送POST的页面 + 查看所有人的所有的文章的页面
+实现一个简单用户系统，用户可以发送动态，并有一个页面可以查看所有人的所有的文章。
 
 
 ***
@@ -23,13 +23,13 @@
 
 + 首页(URL:`/`)
 
-[![pic1111.png](https://storage2.cuntuku.com/2017/11/10/pic1111.png)](https://cuntuku.com/image/KfInJ)
+![](http://ohr9krjig.bkt.clouddn.com/pic1111.png)
 
 点击Submit按钮会在`数据库`中添加一个用户，并`跳转`到该用户发送文章的页面
 
 +  发送文章页面(URL:`/user/<int : user_id>`)
 
-[![pic2222.png](https://storage1.cuntuku.com/2017/11/10/pic2222.png)](https://cuntuku.com/image/KfO4E)
+![](http://ohr9krjig.bkt.clouddn.com/pic2222.png)
 
 通过点击POST会在数据库中添加一个文章，文章内容为Text对应内容，文章的user_id为该用户的id.
 通过AllUser&Post跳转到getall页面
@@ -37,32 +37,10 @@
 
 + All页面 (URL:`/getall`)
 
-[![pic3333.png](https://storage2.cuntuku.com/2017/11/10/pic3333.png)](https://cuntuku.com/image/KfXam)
-
 在点击AllUser&Post后跳转到该页面.
-格式为
-## 用户1
 
----内容1
+![](http://ohr9krjig.bkt.clouddn.com/pic3333.png)
 
----内容2
 
-## 用户2
-
----内容1
-
----内容2
-
-## 用户3
-
----内容1
-
----内容2
-
----内容3
-
----内容4
-
-...
 
 
