@@ -23,13 +23,13 @@
 
 + 首页(URL:`/`)
 
-![](http://wx3.sinaimg.cn/mw690/006yEyQ0gy1fl65rwnf91j30m30o7js1.jpg)
+[![pic1111.png](https://storage2.cuntuku.com/2017/11/10/pic1111.png)](https://cuntuku.com/image/KfInJ)
 
 点击Submit按钮会在`数据库`中添加一个用户，并`跳转`到该用户发送文章的页面
 
 +  发送文章页面(URL:`/user/<int : user_id>`)
 
-![](http://wx3.sinaimg.cn/mw690/006yEyQ0gy1fl65rugpsfj30m10o7q3n.jpg)
+[![pic2222.png](https://storage1.cuntuku.com/2017/11/10/pic2222.png)](https://cuntuku.com/image/KfO4E)
 
 通过点击POST会在数据库中添加一个文章，文章内容为Text对应内容，文章的user_id为该用户的id.
 通过AllUser&Post跳转到getall页面
@@ -37,7 +37,7 @@
 
 + All页面 (URL:`/getall`)
 
-![](http://wx2.sinaimg.cn/mw690/006yEyQ0gy1fl65rpris0j30m10o0wfb.jpg)
+[![pic3333.png](https://storage2.cuntuku.com/2017/11/10/pic3333.png)](https://cuntuku.com/image/KfXam)
 
 在点击AllUser&Post后跳转到该页面.
 格式为
