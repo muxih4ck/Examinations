@@ -1,4 +1,4 @@
-# Quiz
+# 木犀团队2017秋招后端笔试-第一批(2017-11-18)
 
 参考[tutorial.md](./tutorial.md)中的内容使用**Python + Flask**搭建一个网站，开发过程中遇到不懂得问题可以使用各大搜索引擎。开发环境最好使用Unix/Linux，使用Windows的同学可以参考**tutorial.md**顶部给出的教程使用**Virtual Box**安装Ubuntu虚拟机。
 
